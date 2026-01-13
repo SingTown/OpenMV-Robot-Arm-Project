@@ -26,20 +26,20 @@ This project is an integrated development system based on the **OpenMV vision mo
 
 ##  Project Structure
 
-`	ext
+```text
 OpenMV-Robot-Arm-Project/
- firmware/                   # Robot arm control board firmware
- openmv_examples/            # OpenMV Python examples
-     Block Grasping and Palletizing/   # Block sorting & stacking (FOMO)
-     Calibration and Testing/          # Calibration & functional self-test
-     Garbage Classification/           # Garbage recognition & sorting
-     Initial Program/                  # Basic initialization
-     Key Teaching/                     # Movement recording & playback
-     LCD Display & Key Control/        # Display & peripheral interaction
-     Load File and Move/               # Load moves from file
-     Problem E of the 2024/            # 2024 EDC Problem E solution
-     Tic-Tac-Toe Electromagnet/        # Tic-Tac-Toe with electromagnet
-`
+├── firmware/                   # Robot arm control board firmware
+└── openmv_examples/            # OpenMV Python examples
+    ├── Block Grasping and Palletizing/   # Block sorting & stacking (FOMO)
+    ├── Calibration and Testing/          # Calibration & functional self-test
+    ├── Garbage Classification/           # Garbage recognition & sorting
+    ├── Initial Program/                  # Basic initialization
+    ├── Key Teaching/                     # Movement recording & playback
+    ├── LCD Display & Key Control/        # Display & peripheral interaction
+    ├── Load File and Move/               # Load moves from file
+    ├── Problem E of the 2024/            # 2024 EDC Problem E solution
+    └── Tic-Tac-Toe Electromagnet/        # Tic-Tac-Toe with electromagnet
+```
 
 ---
 
@@ -55,14 +55,14 @@ OpenMV-Robot-Arm-Project/
 ##  Quick Start
 
 ### 1. Firmware Flashing
-Flash the bin files in irmware/ to the robot arm control board.
+Flash the bin files in firmware/ to the robot arm control board.
 
 ### 2. Environment Setup
 1. Install [OpenMV IDE](https://openmv.io/pages/download).
 2. Copy files from the example directory to the OpenMV disk root.
 
 ### 3. Calibration (Crucial)
-Run openmv_examples/Calibration and Testing/У׼����.py to ensure proper servo alignment and coordinate mapping.
+Run openmv_examples/Calibration and Testing/calibration.py to ensure proper servo alignment and coordinate mapping.
 
 ---
 

@@ -62,7 +62,7 @@ OpenMV-Robot-Arm-Project/
 2. 将相应示例目录下的文件（`main.py`, `Robot_arm.py` 等）拷贝至 OpenMV 磁盘根目录。
 
 ### 3. 校准 (重要)
-运行 `openmv_examples/Calibration and Testing/校准程序.py` 确保舵机中位及坐标对齐。
+运行 `openmv_examples/Calibration and Testing/calibration.py` 确保舵机中位及坐标对齐。
 
 ---
 
