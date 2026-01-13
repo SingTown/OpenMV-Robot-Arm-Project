@@ -1,0 +1,5 @@
+background
+harmful
+kitchen
+other
+recyclable

@@ -1,0 +1,5 @@
+background
+harmful_waste
+other
+recyclable_garbage
+kitchen_waste
