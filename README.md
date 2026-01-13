@@ -26,20 +26,20 @@ This project is an integrated development system based on the **OpenMV vision mo
 
 ##  Project Structure
 
-`	ext
+```text
 OpenMV-Robot-Arm-Project/
- firmware/                   # Robot arm control board firmware
- openmv_examples/            # OpenMV Python examples
-     Block Grasping and Palletizing/   # Block sorting & stacking (FOMO)
-     Calibration and Testing/          # Calibration & functional self-test
-     Garbage Classification/           # Garbage recognition & sorting
-     Initial Program/                  # Basic initialization
-     Key Teaching/                     # Movement recording & playback
-     LCD Display & Key Control/        # Display & peripheral interaction
-     Load File and Move/               # Load moves from file
-     Problem E of the 2024/            # 2024 EDC Problem E solution
-     Tic-Tac-Toe Electromagnet/        # Tic-Tac-Toe with electromagnet
-`
+├── firmware/                   # Robot arm control board firmware
+└── openmv_examples/            # OpenMV Python examples
+    ├── Block Grasping and Palletizing/   # Block sorting & stacking (FOMO)
+    ├── Calibration and Testing/          # Calibration & functional self-test
+    ├── Garbage Classification/           # Garbage recognition & sorting
+    ├── Initial Program/                  # Basic initialization
+    ├── Key Teaching/                     # Movement recording & playback
+    ├── LCD Display & Key Control/        # Display & peripheral interaction
+    ├── Load File and Move/               # Load moves from file
+    ├── Problem E of the 2024/            # 2024 EDC Problem E solution
+    └── Tic-Tac-Toe Electromagnet/        # Tic-Tac-Toe with electromagnet
+```
 
 ---
 
