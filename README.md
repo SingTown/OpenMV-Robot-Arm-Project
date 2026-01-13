@@ -1,6 +1,6 @@
 # OpenMV Intelligent Vision Robot Arm Project
 
-[English](README.md) | [中文](README_CN.md)
+[English](README.md) | [涓枃](README_CN.md)
 
 ---
 
@@ -62,7 +62,7 @@ Flash the bin files in irmware/ to the robot arm control board.
 2. Copy files from the example directory to the OpenMV disk root.
 
 ### 3. Calibration (Crucial)
-Run openmv_examples/Calibration and Testing/校准程序.py to ensure proper servo alignment and coordinate mapping.
+Run openmv_examples/Calibration and Testing/校准锟斤拷锟斤拷.py to ensure proper servo alignment and coordinate mapping.
 
 ---
 
