@@ -62,7 +62,7 @@ Flash the bin files in firmware/ to the robot arm control board.
 2. Copy files from the example directory to the OpenMV disk root.
 
 ### 3. Calibration (Crucial)
-Run openmv_examples/Calibration and Testing/У׼����.py to ensure proper servo alignment and coordinate mapping.
+Run openmv_examples/Calibration and Testing/calibration.py to ensure proper servo alignment and coordinate mapping.
 
 ---
 
