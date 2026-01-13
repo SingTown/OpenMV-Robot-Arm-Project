@@ -55,14 +55,14 @@ OpenMV-Robot-Arm-Project/
 ## 📝 快速上手
 
 ### 1. 固件刷写
-将 `firmware/` 目录下的 bin 文件刷入机械臂控制板。
+将 `firmware/` 目录下的 bin 文件刷入机械臂控制板。（机械臂出厂时默认已烧录）
 
 ### 2. 环境配置
 1. 安装 [OpenMV IDE](https://openmv.io/pages/download)。
 2. 将相应示例目录下的文件（`main.py`, `Robot_arm.py` 等）拷贝至 OpenMV 磁盘根目录。
 
-### 3. 校准 (重要)
-运行 `openmv_examples/Calibration and Testing/calibration.py` 确保舵机中位及坐标对齐。
+### 3. 校准
+运行 `openmv_examples/Calibration and Testing/calibration.py` 确保舵机中位及坐标对齐。（校准舵机角度和机械臂复位角度，当出现舵机角度不准确和机械臂复位位置不准确时所用）
 
 ---
 

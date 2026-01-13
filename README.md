@@ -4,13 +4,13 @@
 
 ---
 
-##  Introduction
+## 📌 Introduction
 
 This project is an integrated development system based on the **OpenMV vision module** and a **multi-DOF robot arm**. It integrates mechanical control, computer vision, deep learning (TFLite/FOMO), and automation algorithms. The project is designed to provide a complete hardware and software reference solution for **Engineering Makers**, **Electronic Design Contests (EDC)**, and **AI Robotics Education**.
 
 ---
 
-##  Core Features
+## 🚀 Core Features
 
 - **Vision Recognition & Positioning**: Utilizing OpenMV for color tracking, shape recognition, and TFLite deep learning model inference (e.g., FOMO).
 - **Coordinate Transformation**: Establishing the mapping between camera pixel coordinates and robot arm spatial coordinates.
@@ -24,7 +24,7 @@ This project is an integrated development system based on the **OpenMV vision mo
 
 ---
 
-##  Project Structure
+## 📂 Project Structure
 
 ```text
 OpenMV-Robot-Arm-Project/
@@ -43,7 +43,7 @@ OpenMV-Robot-Arm-Project/
 
 ---
 
-##  Hardware Requirements
+## 🛠️ Hardware Requirements
 
 1. **Vision Module**: OpenMV H7 / H7 Plus or higher.
 2. **Robot Arm**: Desktop multi-DOF arm with UART support.
@@ -52,21 +52,21 @@ OpenMV-Robot-Arm-Project/
 
 ---
 
-##  Quick Start
+## 📝 Quick Start
 
 ### 1. Firmware Flashing
-Flash the bin files in firmware/ to the robot arm control board.
+Flash the bin files in `firmware/` to the robot arm control board. (Pre-flashed by factory default)
 
 ### 2. Environment Setup
 1. Install [OpenMV IDE](https://openmv.io/pages/download).
 2. Copy files from the example directory to the OpenMV disk root.
 
-### 3. Calibration (Crucial)
-Run openmv_examples/Calibration and Testing/calibration.py to ensure proper servo alignment and coordinate mapping.
+### 3. Calibration
+Run `openmv_examples/Calibration and Testing/calibration.py` to ensure proper servo alignment and coordinate mapping. (Used to calibrate servo angles and robot arm reset position when they are inaccurate)
 
 ---
 
-##  Support
+## 🤝 Support
 
 Supported by [SingTown](https://singtown.com).
 
