@@ -55,7 +55,7 @@ OpenMV-Robot-Arm-Project/
 ##  Quick Start
 
 ### 1. Firmware Flashing
-Flash the bin files in irmware/ to the robot arm control board.
+Flash the bin files in firmware/ to the robot arm control board.
 
 ### 2. Environment Setup
 1. Install [OpenMV IDE](https://openmv.io/pages/download).
